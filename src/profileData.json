@@ -38,6 +38,13 @@
       "gpa": "7.5",
       "fromDate": "August 2016",
       "toDate": "Present"
+    },
+    {
+      "university": "Engineering degree, Systems Engineering UTN",
+      "degree": "Bachelor of Technology",
+      "gpa": "7.5",
+      "fromDate": "March 2014",
+      "toDate": "August 2016"
     }
   ],
   "skills": [
