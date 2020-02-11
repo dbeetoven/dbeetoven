@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "228f7462ad2dc257f718048f8f452fc7",
+    "revision": "773663f786f9548c4b3eabb7e6f5e034",
     "url": "/dbeetoven/index.html"
   },
   {
-    "revision": "4e80b8025625afcc0641",
+    "revision": "7e17bbb2b9ad838b2ca6",
     "url": "/dbeetoven/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dbeetoven/static/js/2.25a3054d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4e80b8025625afcc0641",
-    "url": "/dbeetoven/static/js/main.389b7b74.chunk.js"
+    "revision": "7e17bbb2b9ad838b2ca6",
+    "url": "/dbeetoven/static/js/main.2c845e20.chunk.js"
   },
   {
     "revision": "e5d8827bf0537c9fa012",

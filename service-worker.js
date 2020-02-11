@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/dbeetoven/precache-manifest.9b4337c9b21ddb731e907d1f0d86e9c2.js"
+  "/dbeetoven/precache-manifest.5e609e29dc0e73323e2c6499587bd0e4.js"
 );
 
 self.addEventListener('message', (event) => {
