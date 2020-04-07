@@ -1,23 +1,16 @@
 {
   "files": {
     "main.css": "/dbeetoven/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/dbeetoven/static/js/main.2c845e20.chunk.js",
-    "main.js.map": "/dbeetoven/static/js/main.2c845e20.chunk.js.map",
-    "runtime-main.js": "/dbeetoven/static/js/runtime-main.2746658f.js",
-    "runtime-main.js.map": "/dbeetoven/static/js/runtime-main.2746658f.js.map",
-    "static/js/2.25a3054d.chunk.js": "/dbeetoven/static/js/2.25a3054d.chunk.js",
-    "static/js/2.25a3054d.chunk.js.map": "/dbeetoven/static/js/2.25a3054d.chunk.js.map",
+    "main.js": "/dbeetoven/static/js/main.e1868ebb.chunk.js",
+    "main.js.map": "/dbeetoven/static/js/main.e1868ebb.chunk.js.map",
+    "runtime~main.js": "/dbeetoven/static/js/runtime~main.340b209b.js",
+    "runtime~main.js.map": "/dbeetoven/static/js/runtime~main.340b209b.js.map",
+    "static/js/2.36059290.chunk.js": "/dbeetoven/static/js/2.36059290.chunk.js",
+    "static/js/2.36059290.chunk.js.map": "/dbeetoven/static/js/2.36059290.chunk.js.map",
     "index.html": "/dbeetoven/index.html",
-    "precache-manifest.9164103c73faaba8d5c5361262779868.js": "/dbeetoven/precache-manifest.9164103c73faaba8d5c5361262779868.js",
+    "precache-manifest.0e9de023e0df13922113d1a31ff9e39f.js": "/dbeetoven/precache-manifest.0e9de023e0df13922113d1a31ff9e39f.js",
     "service-worker.js": "/dbeetoven/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/dbeetoven/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.25a3054d.chunk.js.LICENSE.txt": "/dbeetoven/static/js/2.25a3054d.chunk.js.LICENSE.txt",
     "static/media/profile.jpg": "/dbeetoven/static/media/profile.f38c752f.jpg"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.2746658f.js",
-    "static/js/2.25a3054d.chunk.js",
-    "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.2c845e20.chunk.js"
-  ]
+  }
 }
