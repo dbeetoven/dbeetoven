@@ -1,4 +1,6 @@
-My CV: [LIVE](http://dbeetoven.herokuapp.com/).
+demo on heroku [LIVE](http://dbeetoven.herokuapp.com/).
+
+demo on gh-pages [DEMO](https://dbeetoven.github.io/dbeetoven)
 
 ## Available Scripts
 
