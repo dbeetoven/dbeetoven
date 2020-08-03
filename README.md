@@ -1,30 +1,61 @@
-demo on heroku [LIVE](http://dbeetoven.herokuapp.com/).
+[![Header](https://github.com/dbeetoven/dbeetoven/blob/master/Beetoven.png "Header")](https://dbeetoven.github.io/dbeetoven/)
 
-demo on gh-pages [DEMO](https://dbeetoven.github.io/dbeetoven)
+# Hello, Friends! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 
-## Available Scripts
+My name is [Beetoven Desir](https://dbeetoven.github.io/dbeetoven/) and I'm a software developer. I'm from Haiti, living in Argentina and currently working at Mobile Computing. You can find me on [![Twitter][1.2]][1], on [![LinkedIn][3.2]][3] or apart from coding [DEV.to](https://dev.to/dbeetoven).
 
-In the project directory, you can run:
+## 🔧 Technologies & Tools
+![](https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=linux&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Editor-IntelliJ_IDEA-informational?style=flat&logo=intellij-idea&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Code-JavaScript-informational?style=flat&logo=javascript&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Code-Make-informational?style=flat&logo=cmake&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Shell-Bash-informational?style=flat&logo=gnu-bash&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=2bbc8a)
 
-### `yarn start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## &#x1f4c8; GitHub Stats
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<a href="https://github.com/dbeetoven">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dbeetoven&hide=java,html&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
+</a>
+<a href="https://github.com/dbeetoven">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=dbeetoven&show_icons=true&line_height=27&count_private=true&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" alt="Martin's GitHub Stats" />
+</a>
 
-### `yarn test`
+<a href="https://github.com/dbeetoven/Baugit">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=dbeetoven&repo=Baugit&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
+</a>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+<a href="https://github.com/dbeetoven/baugit-api">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=dbeetoven&repo=baugit-api&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
+</a>    
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- links to social media icons -->
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+<!-- icons with padding -->
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[1.1]: http://i.imgur.com/tXSoThF.png (twitter icon with padding)
+[2.1]: http://i.imgur.com/0o48UoR.png (github icon with padding)
+
+<!-- icons without padding -->
+
+[1.2]: http://i.imgur.com/wWzX9uB.png (twitter icon without padding)
+[2.2]: http://i.imgur.com/9I6NRUm.png (github icon without padding)
+[3.2]: https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/linkedin-3-16.png (LinkedIn icon without padding)
+
+
+<!-- links to your social media accounts -->
+
+[1]: https://twitter.com/dbeetoven
+[2]: https://github.com/dbeetoven
+[3]: https://www.linkedin.com/in/dbeetoven/
+
+
+<!-- Resources -->
+<!-- Icons: https://simpleicons.org/ -->
+<!-- GitHub Stats: https://github.com/anuraghazra/github-readme-stats -->
+<!-- Emojis: https://emojipedia.org/emoji/ -->
+<!-- HTML Emojis: https://www.fileformat.info/index.htm -->
+<!-- Shields: https://shields.io/ -->
+<!-- Awesome GitHub Profile README: https://github.com/abhisheknaiidu/awesome-github-profile-readme -->
