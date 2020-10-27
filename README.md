@@ -2,7 +2,7 @@
 
 # Hello, Friends! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 
-My name is [Beetoven Desir](https://dbeetoven.github.io/dbeetoven/) and I'm a software developer. I'm from Haiti, living in Argentina and currently working at Mobile Computing. You can find me on [![Twitter][1.2]][1], on [![LinkedIn][3.2]][3] or apart from coding [DEV.to](https://dev.to/dbeetoven).
+My name is [Beetoven Desir](https://dbeetoven.github.io/dbeetoven/) and I'm a software developer. I'm from Haiti, living in Argentina and currently working at Bayer. You can find me on [![Twitter][1.2]][1], on [![LinkedIn][3.2]][3] or apart from coding [DEV.to](https://dev.to/dbeetoven).
 
 ## 🔧 Technologies & Tools
 ![](https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=linux&logoColor=white&color=2bbc8a)
