@@ -1,55 +1,70 @@
-[![Header](https://github.com/dbeetoven/dbeetoven/blob/master/Beetoven.png "Header")](https://dbeetoven.github.io/dbeetoven/)
 
-# Hello, Friends! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
+[![Header](https://github.com/dbeetoven/dbeetoven/blob/master/banner.png "Header")](https://dbeetoven.github.io/dbeetoven/)
 
-My name is [Beetoven Desir](https://dbeetoven.github.io/dbeetoven/) and I'm a software developer. I'm from Haiti, living in Argentina and currently working at Bayer. You can find me on [![Twitter][1.2]][1], on [![LinkedIn][3.2]][3] or apart from coding [DEV.to](https://dev.to/dbeetoven).
+### Hi there and welcome to my GitHub page 👋
 
-## 🔧 Technologies & Tools
-![](https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=linux&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Editor-IntelliJ_IDEA-informational?style=flat&logo=intellij-idea&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Code-JavaScript-informational?style=flat&logo=javascript&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Code-Make-informational?style=flat&logo=cmake&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Shell-Bash-informational?style=flat&logo=gnu-bash&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=2bbc8a)
+My name is Beetoven Desir and I am a Software developer,living in Argentina and currently working at Bayer.
 
+---
 
-## &#x1f4c8; GitHub Stats
+### What do I do?
 
+<p>
+  <img alt="Angular" src="https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=white&style=for-the-badge" />
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=white&style=for-the-badge" />
+  <img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white&style=for-the-badge" />
+  <img alt="Css" src="https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white&style=for-the-badge" />
+  <img alt="Sass" src="https://img.shields.io/badge/Sass-CC6699?logo=sass&logoColor=white&style=for-the-badge" />
+  <img alt="AWS" src="https://img.shields.io/badge/AWS-FF9900?logo=amazon&logoColor=white&style=for-the-badge" />
+    <img alt="Node" src="https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white&style=for-the-badge" />
+   <img alt="Java" src="https://img.shields.io/badge/Java-5382a1?logo=java&logoColor=white&style=for-the-badge" />
+</p>
+
+-  As a Side project,I’m currently working on my <a href="https://dbeetoven.github.io/dbeetoven">personal website</a>.
+- I am constantly studying and looking for new challenges or skills to improve, that can contribute something to my day-to-day work
+
+---
+
+### I'm open for collaborations, Send me a message!
+
+- I am open to making new friends in tech and collaborations, Here is where you can find me:
+
+<p>
+  <a href="https://dev.to/dbeetoven">
+    <img alt="Youtube" src="https://img.shields.io/badge/DEV.TO-0A0A0A?logo=dev.to&logoColor=white&style=for-the-badge" />
+  </a>
+
+  <a href="https://twitter.com/dbeetoven">
+    <img alt="Twitter" src="https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&logoColor=white&style=for-the-badge" />
+  </a>
+  <a href="https://www.instagram.com/dbeetoven/">
+    <img alt="Instagram" src="https://img.shields.io/badge/Instagram-E4405F?logo=instagram&logoColor=white&style=for-the-badge" />
+  </a>
+  <a href="https://www.linkedin.com/in/dbeetoven/">
+    <img alt="Linkedin" src="https://img.shields.io/badge/linkedin-0077B5?logo=linkedin&logoColor=white&style=for-the-badge" />
+  </a>
+</p>
+
+---
+
+### Github stats
+
+<img align="center" src="https://github-readme-stats.vercel.app/api?username=dbeetoven&count_private=true&title_color=FF66C4&icon_color=9446A6&text_color=C9C6B7&custom_title=Beetoven+Desir's+GitHub+Stats&show_icons=true" />
 <a href="https://github.com/dbeetoven">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dbeetoven&hide=java,html&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dbeetoven&hide=java,html&title_color=FF66C4&text_color=C9C6B7&icon_color=C9C6B7" />
 </a>
-<a href="https://github.com/dbeetoven">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=dbeetoven&show_icons=true&line_height=27&count_private=true&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" alt="Martin's GitHub Stats" />
-</a>
-
-<a href="https://github.com/dbeetoven/Baugit">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=dbeetoven&repo=Baugit&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
-</a>
+ 
+ ---
 
 
-<a href="https://github.com/dbeetoven/baugit-api">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=dbeetoven&repo=baugit-api&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
-</a>    
+#### 🔧 Tools,systems Technologies I use
+![](https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=linux&logoColor=white&color=FCC624)
+![](https://img.shields.io/badge/Catalina-informational?style=flat&logo=apple&logoColor=white&color=FCC624)
+![](https://img.shields.io/badge/Editor-IntelliJ_IDEA-informational?style=flat&logo=intellij-idea&logoColor=white&color=A42E2B)
+![](https://img.shields.io/badge/Visual-Studio-Code?style=flat&logo=vscode&logoColor=white&color=007ACC)
+![](https://img.shields.io/badge/Shell-Zsh-informational?style=flat&logo=gnu-bash&logoColor=white&color=019733)
+![](https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=2496ED)
 
-<!-- links to social media icons -->
-
-<!-- icons with padding -->
-
-[1.1]: http://i.imgur.com/tXSoThF.png (twitter icon with padding)
-[2.1]: http://i.imgur.com/0o48UoR.png (github icon with padding)
-
-<!-- icons without padding -->
-
-[1.2]: http://i.imgur.com/wWzX9uB.png (twitter icon without padding)
-[2.2]: http://i.imgur.com/9I6NRUm.png (github icon without padding)
-[3.2]: https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/linkedin-3-16.png (LinkedIn icon without padding)
-
-
-<!-- links to your social media accounts -->
-
-[1]: https://twitter.com/dbeetoven
-[2]: https://github.com/dbeetoven
-[3]: https://www.linkedin.com/in/dbeetoven/
 
 
 <!-- Resources -->
@@ -59,6 +74,4 @@ My name is [Beetoven Desir](https://dbeetoven.github.io/dbeetoven/) and I'm a so
 <!-- HTML Emojis: https://www.fileformat.info/index.htm -->
 <!-- Shields: https://shields.io/ -->
 <!-- Awesome GitHub Profile README: https://github.com/abhisheknaiidu/awesome-github-profile-readme -->
-###
-###
- ⭐️ From [MartinHeinz](https://github.com/MartinHeinz)
+
