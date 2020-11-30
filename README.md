@@ -51,7 +51,7 @@ My name is Beetoven Desir and I am a Software developer,living in Argentina and 
 
 <img align="center" src="https://github-readme-stats.vercel.app/api?username=dbeetoven&count_private=true&title_color=FF66C4&icon_color=9446A6&text_color=C9C6B7&custom_title=Beetoven+Desir's+GitHub+Stats&show_icons=true" />
 <a href="https://github.com/dbeetoven">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dbeetoven&hide=java,html&title_color=FF66C4&text_color=C9C6B7&icon_color=C9C6B7" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dbeetoven&layout=compact&title_color=FF66C4&text_color=C9C6B7&icon_color=C9C6B7" />
 </a>
  
  ---
