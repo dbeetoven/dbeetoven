@@ -1,0 +1,50 @@
+@import './variables';
+@import './styles.scss';
+html {
+  margin: 0;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: $font-family;
+  // background-color: $bg-color-primary;
+}
+// .container {
+//   margin: 3rem auto;
+//   max-width: 600px;
+// }
+// .layout {
+//   height: 100%;
+//   display: grid;
+//   grid-gap: 1rem;
+//   grid-template-rows: 1fr 5fr 1fr;
+// }
+main{
+  display: grid;
+  grid-template-areas:
+              "topbar   topbar    topbar"
+              "ads      container  social"
+              "footer   footer     footer";
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 3rem auto  2rem;
+  gap: 2rem 1rem;
+
+  // justify-items: center;
+  // align-items: center;
+}
+
+.page-header{
+grid-area: topbar;
+}
+.page-section{
+  grid-area: container;
+}
+.page-ads{
+  grid-area: ads;
+}
+.page-social{
+  grid-area: social;
+}
+.page-footer{
+  grid-area: footer;
+}

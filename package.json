@@ -1,34 +1,77 @@
 {
-  "name": "my-portfolio",
+  "name": "dbeetoven-por",
   "version": "1.0.0",
   "private": true,
   "description": "My Gatsby site",
   "author": "dbeetoven",
-  "keywords": [
-    "gatsby"
-  ],
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
-  "license": "0BSD",
+  "license": "MIT",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,css,json,md}": [
+      "prettier --write"
+    ],
+    "*.js": [
+      "eslint --fix"
+    ]
+  },
   "dependencies": {
     "gatsby": "^2.26.1",
     "gatsby-plugin-google-analytics": "^2.7.0",
     "gatsby-plugin-image": "^0.3.1",
-    "gatsby-plugin-manifest": "^2.8.0",
     "gatsby-plugin-react-helmet": "^3.6.0",
     "gatsby-plugin-sass": "^2.7.0",
+    "gatsby-plugin-netlify": "^2.1.27",
     "gatsby-plugin-sharp": "^2.10.1",
     "gatsby-plugin-sitemap": "^2.8.0",
+    "gatsby-plugin-typescript": "^2.8.0",
+    "gatsby-plugin-typography": "^2.8.0",
     "gatsby-source-filesystem": "^2.7.0",
     "gatsby-transformer-sharp": "^2.8.0",
-    "node-sass": "^5.0.0",
+    "node-sass": "4.14.1",
+    "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-helmet": "^6.1.0"
-  }
+    "react-helmet": "^6.1.0",
+    "react-typography": "^0.16.19",
+    "typography": "^0.16.19",
+    "typography-theme-fairy-gates": "^0.16.19"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.11",
+    "@types/react-dom": "^17.0.0",
+    "@upstatement/eslint-config": "0.4.3",
+    "@upstatement/prettier-config": "^0.3.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "gatsby-remark-code-titles": "^1.1.0",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.1.2",
+    "dotenv": "^8.2.0",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbeetoven/dbeetoven.git"
+  },
+  "homepage": "https://github.com/dbeetoven/dbeetoven#readme",
+  "keywords": [
+    "gatsby",
+    "react"
+  ]
 }
