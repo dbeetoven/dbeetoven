@@ -1,19 +1,26 @@
 import React, { Fragment } from 'react';
-import { socials } from '../constants/constant';
-import { Icon } from './icons/index';
+
 const Footer = () => (
   <Fragment>
-    <ul className="footerLinks">
-      {socials &&
-        socials.map(({ url, name }, i) => (
-          <li key={i}>
-            <a href={url} aria-label={name}>
-              <Icon name={name} />
-            </a>
-          </li>
-        ))}
-      ƒ{' '}
-    </ul>
+    <div className="menu">
+      <div className="label">Follow Me</div>
+      <div className="spacer"></div>
+      <div className="item">
+        <span>Twitter</span>
+      </div>
+      <div className="item">
+        <span>Instagram</span>
+      </div>
+      <div className="item">
+        <span>Flickr</span>
+      </div>
+      <div className="item">
+        <span>Behance</span>
+      </div>
+      <div className="item">
+        <span>MixCloud</span>
+      </div>
+    </div>
   </Fragment>
 );
 

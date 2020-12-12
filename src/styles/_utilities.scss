@@ -1,0 +1,95 @@
+$white: #f9f9f9;
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card {
+  background-color: $white;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  cursor: pointer;
+  background: #f37121;
+  color: $white;
+  border: none;
+  border-radius: 15px;
+  &:hover {
+    transform: scale(0.98);
+  }
+  &-outline {
+    background-color: transparent;
+    border: 1px $white solid;
+  }
+}
+
+.bg-primary,
+.btn-primary {
+  background-color: #f37121;
+  color: $white;
+}
+
+.text-primary {
+  color: #e6f1ff;
+}
+.text-secondary {
+  color: #f37121;
+}
+
+.text-dark {
+  color: #1a212c;
+}
+
+.text-light {
+  color: $white;
+}
+
+.text-center {
+    text-align: center;
+  }
+.lead {
+    font-size: 20px;
+  }
+  
+  .sm {
+    font-size: 1rem;
+  }
+  
+  .md {
+    font-size: 2rem;
+  }
+  
+  .lg {
+    font-size: 3rem;
+  }
+  
+  .xl {
+    font-size: 4rem;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+.round{
+    border-radius: 50px;
+}
