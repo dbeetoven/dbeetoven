@@ -7,9 +7,9 @@ const plugins = [
   'gatsby-plugin-image',
   'gatsby-plugin-react-helmet',
   'gatsby-plugin-sitemap',
-  'gatsby-plugin-typescript',
   'gatsby-plugin-sharp',
   'gatsby-transformer-sharp',
+  'gatsby-plugin-fontawesome-css',
   {
     resolve: 'gatsby-source-filesystem',
     options: {
@@ -26,18 +26,6 @@ const plugins = [
       allExtensions: true,
     },
   },
-  {
-    resolve: `gatsby-plugin-typography`,
-    options: {
-      pathToConfigModule: `src/utils/typography`,
-    },
-  },
-
-  // siteMetaData:{
-  //   titla: `dbeetoven`,
-  //  description:`portfolio, dbeetoven, software developer,  Front end dev, web developmente, Back end, node js, Angular`
-  //  author:`@gatsbyjs`
-  // },
 ];
 
 if (ANALYTICS_ID) {
@@ -50,5 +38,9 @@ if (ANALYTICS_ID) {
 }
 
 module.exports = {
+  siteMetadata: {
+    title: 'Beetoven Desir',
+    description: 'dbeetoven Portfolio, gatsby, scss',
+  },
   plugins,
 };

@@ -1,0 +1,59 @@
+h1, h2, h3, h4, h5, h6, p, li, ol, ul, pre {
+	margin: 0;
+	padding: 0;
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+	.navbar {
+		height: 110px;
+		& ul{
+		  padding: 10px;
+		  background-color: rgba(0, 0, 0, 0.1);
+		}
+		& .flex{
+			flex-direction: column;
+		}
+	  }
+  }
+
+  /* Animations */
+@keyframes slideInFromLeft {
+	0% {
+	  transform: translateX(-100%);
+	}
+  
+	100% {
+	  transform: translateX(0);
+	}
+  }
+  
+  @keyframes slideInFromRight {
+	0% {
+	  transform: translateX(100%);
+	}
+  
+	100% {
+	  transform: translateX(0);
+	}
+  }
+  
+  @keyframes slideInFromTop {
+	0% {
+	  transform: translateY(-100%);
+	}
+  
+	100% {
+	  transform: translateX(0);
+	}
+  }
+  
+  @keyframes slideInFromBottom {
+	0% {
+	  transform: translateY(100%);
+	}
+  
+	100% {
+	  transform: translateX(0);
+	}
+  }
