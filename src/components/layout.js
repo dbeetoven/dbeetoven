@@ -5,6 +5,8 @@ import { Helmet } from 'react-helmet';
 // import Social from './social';
 import Header from './header';
 import Nav from './nav';
+import About from './about';
+import Skills from './skills';
 import useSiteMetadata from '../hooks/use-siteMetadata';
 
 export default function Layout() {
@@ -19,10 +21,15 @@ export default function Layout() {
       <div className="navbar">
         <Nav />
       </div>
-      <section className="header">
+      <div className="header">
         <Header />
-      </section>
-
+      </div>
+      <div className="about-exp">
+        <About />
+      </div>
+      <div className="skills">
+        <Skills />
+      </div>
       {/* <div id="page-menu" className="page-menu"><h2>Menu</h2></div>
       <div id="page-main" className="page-main">{children}</div>
       <div id="page-social" className="page-social"><p>Links</p></div>
