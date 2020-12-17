@@ -2,18 +2,24 @@
 import React from 'react';
 
 const Nav = () => (
-  <div className="container flex">
-    <h1 className="logo">Dbeetoven</h1>
+  <div className="navbar__container navbar__flex">
+    <h1 className="navbar__logo">Dbeetoven</h1>
     <nav>
-      <ul>
-        <li>
-          <a href="index.html">About</a>
+      <ul className="navbar__list">
+        <li className="navbar__item">
+          <a className="navbar__link" href="index.html">
+            About
+          </a>
         </li>
-        <li>
-          <a href="features.html">Experience</a>
+        <li className="navbar__item">
+          <a className="navbar__link" href="features.html">
+            Experience
+          </a>
         </li>
-        <li>
-          <a href="docs.html">Skills</a>
+        <li className="navbar__item">
+          <a className="navbar__link" href="docs.html">
+            Skills
+          </a>
         </li>
       </ul>
     </nav>

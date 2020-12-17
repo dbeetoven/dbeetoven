@@ -21,3 +21,50 @@ $state:#8892b0;
 $light-blue:#a8b2d1;
 $extra-large:40px;
 $large: 20px;
+$dark:#333;
+$styleCard: (background: $white-1, color: $bg-color-primary, border-raduis: 10px);
+
+
+
+/* Utils */
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+ol,
+ul,
+pre {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2 {
+  font-weight: 300;
+  margin: 1rem 0;
+}
+
+p {
+  margin: 10px 0;
+}
+
+img {
+  width: 100%;
+}
+
+code,
+pre {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+}
