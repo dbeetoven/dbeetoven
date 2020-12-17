@@ -1,24 +1,21 @@
-$white: #f9f9f9;
+
+@import './variables';
+@import './mixins';
+
 .container {
-  max-width: 1140px;
-  margin: 0 auto;
-  overflow: auto;
-  padding: 0 40px;
+  @include container;
 }
+
 .flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
+  @include flex;
+}
+
+.grid {
+  @include grid;
 }
 
 .card {
-  background-color: $white;
-  color: #333;
-  border-radius: 10px;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-  padding: 20px;
-  margin: 10px;
+  @include card($styleCard...);
 }
 
 .btn {
@@ -26,9 +23,11 @@ $white: #f9f9f9;
   padding: 10px 30px;
   cursor: pointer;
   background: #f37121;
-  color: $white;
+  color: $white-1;
   border: none;
   border-radius: 15px;
+  transition: border-radius 1.5s;
+  -webkit-transition: border-radius 1.5s;
   &:hover {
     transform: scale(0.98);
   }
@@ -41,7 +40,7 @@ $white: #f9f9f9;
 .bg-primary,
 .btn-primary {
   background-color: #f37121;
-  color: $white;
+  color: $white-1;
 }
 
 .text-primary {
@@ -56,148 +55,134 @@ $white: #f9f9f9;
 }
 
 .text-light {
-  color: $white;
+  color: $white-1;
 }
 
 .text-center {
-    text-align: center;
-  }
+  text-align: center;
+}
 .lead {
-    font-size: 20px;
-  }
+  font-size: 20px;
+}
 
-  .sm {
-    font-size: 1rem;
-  }
+.sm {
+  font-size: 1rem;
+}
 
-  .md {
-    font-size: 2rem;
-  }
+.md {
+  font-size: 2rem;
+}
 
-  .lg {
-    font-size: 3rem;
-  }
+.lg {
+  font-size: 3rem;
+}
 
-  .xl {
-    font-size: 4rem;
-  }
+.xl {
+  font-size: 4rem;
+}
 
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-  }
+.lead {
+  font-size: 20px;
+}
 
-  .grid-3 {
-    grid-template-columns: repeat(3, 1fr);
-  }
+.sm {
+  font-size: 1rem;
+}
 
-  .lead {
-    font-size: 20px;
-  }
+.md {
+  font-size: 2rem;
+}
 
-  .sm {
-    font-size: 1rem;
-  }
+.lg {
+  font-size: 3rem;
+}
 
-  .md {
-    font-size: 2rem;
-  }
+.xl {
+  font-size: 4rem;
+}
 
-  .lg {
-    font-size: 3rem;
-  }
+.text-center {
+  text-align: center;
+}
 
-  .xl {
-    font-size: 4rem;
-  }
+/* Margin */
+.my-1 {
+  margin: 1rem 0;
+}
 
-  .text-center {
-    text-align: center;
-  }
+.my-2 {
+  margin: 1.5rem 0;
+}
 
+.my-3 {
+  margin: 2rem 0;
+}
 
-  /* Margin */
-  .my-1 {
-    margin: 1rem 0;
-  }
+.my-4 {
+  margin: 3rem 0;
+}
 
-  .my-2 {
-    margin: 1.5rem 0;
-  }
+.my-5 {
+  margin: 4rem 0;
+}
 
-  .my-3 {
-    margin: 2rem 0;
-  }
+.m-1 {
+  margin: 1rem;
+}
 
-  .my-4 {
-    margin: 3rem 0;
-  }
+.m-2 {
+  margin: 1.5rem;
+}
 
-  .my-5 {
-    margin: 4rem 0;
-  }
+.m-3 {
+  margin: 2rem;
+}
 
-  .m-1 {
-    margin: 1rem;
-  }
+.m-4 {
+  margin: 3rem;
+}
 
-  .m-2 {
-    margin: 1.5rem;
-  }
+.m-5 {
+  margin: 4rem;
+}
 
-  .m-3 {
-    margin: 2rem;
-  }
+/* Padding */
+.py-1 {
+  padding: 1rem 0;
+}
 
-  .m-4 {
-    margin: 3rem;
-  }
+.py-2 {
+  padding: 1.5rem 0;
+}
 
-  .m-5 {
-    margin: 4rem;
-  }
+.py-3 {
+  padding: 2rem 0;
+}
 
-  /* Padding */
-  .py-1 {
-    padding: 1rem 0;
-  }
+.py-4 {
+  padding: 3rem 0;
+}
 
-  .py-2 {
-    padding: 1.5rem 0;
-  }
+.py-5 {
+  padding: 4rem 0;
+}
 
-  .py-3 {
-    padding: 2rem 0;
-  }
+.p-1 {
+  padding: 1rem;
+}
 
-  .py-4 {
-    padding: 3rem 0;
-  }
+.p-2 {
+  padding: 1.5rem;
+}
 
-  .py-5 {
-    padding: 4rem 0;
-  }
+.p-3 {
+  padding: 2rem;
+}
 
-  .p-1 {
-    padding: 1rem;
-  }
+.p-4 {
+  padding: 3rem;
+}
 
-  .p-2 {
-    padding: 1.5rem;
-  }
-
-  .p-3 {
-    padding: 2rem;
-  }
-
-  .p-4 {
-    padding: 3rem;
-  }
-
-  .p-5 {
-    padding: 4rem;
-  }
+.p-5 {
+  padding: 4rem;
+}

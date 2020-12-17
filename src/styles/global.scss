@@ -1,5 +1,6 @@
 @import './variables';
 @import './utilities';
+@import './mixins';
 @import './responsive';
 
 * {
@@ -13,76 +14,54 @@ body {
   font-family: $font-family;
   background-color: $bg-color-primary;
   background-image: linear-gradient(to bottom, #0009, transparent);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   color: $white;
   line-height: 1.6;
 }
+
 .main-container {
   border-top: 4px $red solid;
 }
 
-ul {
-  list-style-type: none;
+.btn-primary:hover {
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
-
-a {
-  text-decoration: none;
+.grid-3 {
+  @include grid;
+  grid-template-columns: repeat(3, 1fr);
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-li,
-ol,
-ul,
-pre {
-  margin: 0;
-  padding: 0;
-}
-h1,
-h2 {
-  font-weight: 300;
-  margin: 1rem 0;
-}
-
-p {
-  margin: 10px 0;
-}
-
-img {
-  width: 100%;
-}
-
-code,
-pre {
-  background: #333;
-  color: #fff;
-  padding: 10px;
-}
-
 /* Navbar */
 .navbar {
   color: $white;
   height: 70px;
-  & ul {
+
+  &__list {
     display: flex;
   }
-  & a {
+  &__item {
+  }
+
+  &__link {
     font-size: 1.2rem;
     font-weight: 500;
     color: $white;
     padding: 10px;
     margin: 0 5px;
+
+    &:hover {
+      transform: scale(0.98);
+      border-bottom: 2px $red solid;
+    }
   }
-  & a:hover {
-    border-bottom: 2px $red solid;
-  }
-  & .flex {
+  &__flex {
+    @include flex;
     justify-content: space-between;
+  }
+  &__container {
+    @include container;
+    overflow: hidden;
   }
 }
 
@@ -186,16 +165,59 @@ pre {
 }
 
 .skills {
-  & .flex {
-    flex-wrap: wrap;
-  }
-  & .card {
-    text-align: center;
-    margin: 18px 10px 40px;
-    transition: transform 0.2s ease-in;
-  }
+  height: 400px;
+  color: $white;
+  position: relative;
 
-  & .card:hover {
-    transform: translateY(-15px);
+  &__container {
+    @include container;
   }
+  &__grid {
+    @include grid;
+    overflow: visible;
+    grid-template-columns: 55% auto;
+    gap: 30px;
+  }
+}
+
+.progress-bar {
+  width: 100%;
+  padding: 4px;
+  background: transparent;
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  &__fill {
+    @include progress-bar-fill($color-secondary);
+  }
+  &__title {
+    padding-bottom: 5px;
+  }
+}
+
+// Scorll design
+::-webkit-scrollbar {
+  border-radius: 50px;
+  width: 7px;
+  background-color: $white;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background-color: $red;
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.2) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.2) 50%,
+    rgba(255, 255, 255, 0.2) 75%,
+    transparent 75%,
+    transparent
+  );
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: $white;
 }
