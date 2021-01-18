@@ -12,7 +12,7 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build && gh-pages -d public --branch master"
+    "deploy": "gatsby build && gh-pages -d public"
   },
   "license": "MIT",
   "husky": {
