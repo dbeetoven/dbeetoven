@@ -41,6 +41,7 @@ module.exports = {
   siteMetadata: {
     title: 'Beetoven Desir',
     description: 'dbeetoven Portfolio, gatsby, scss',
+    siteUrl: 'https://dbeetoven.me/',
   },
   plugins,
 };

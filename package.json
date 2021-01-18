@@ -1,16 +1,18 @@
 {
-  "name": "dbeetoven-por",
-  "version": "1.0.0",
+  "name": "dbeetoven-portfolio",
+  "version": "1.0.1",
   "private": true,
   "description": "My Gatsby site",
   "author": "dbeetoven",
+  "homepage": "https://dbeetoven.me/",
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "deploy": "gh-pages -d public"
   },
   "license": "MIT",
   "husky": {
@@ -34,6 +36,7 @@
     "gatsby-plugin-fontawesome-css": "^1.0.0",
     "gatsby-plugin-google-analytics": "^2.7.0",
     "gatsby-plugin-image": "^0.3.1",
+    "gatsby-plugin-manifest": "^2.10.0",
     "gatsby-plugin-netlify": "^2.1.27",
     "gatsby-plugin-purgecss": "^5.0.0",
     "gatsby-plugin-react-helmet": "^3.6.0",
@@ -67,15 +70,20 @@
     "husky": "^4.2.3",
     "lint-staged": "^10.1.2",
     "ts-node": "^9.0.0",
-    "typescript": "^4.0.5"
+    "typescript": "^4.0.5",
+    "gh-pages": "^2.2.0",
+    "terser-brunch": "^4.0.0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dbeetoven/dbeetoven.git"
   },
-  "homepage": "https://github.com/dbeetoven/dbeetoven#readme",
   "keywords": [
     "gatsby",
     "react"
-  ]
+  ],
+  "engines": {
+    "npm": "6.14.8",
+    "node": "14.15.0"
+  }
 }
