@@ -1,6 +1,6 @@
 {
-  "name": "dbeetoven-portfolio-legacy",
-  "version": "1.0.1",
+  "name": "dbeetoven-portfolio",
+  "version": "1.0.2",
   "private": true,
   "description": "My Gatsby site",
   "author": "dbeetoven",
@@ -12,7 +12,7 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build && gh-pages -d public --branch master"
+    "deploy": "gatsby build && gh-pages -d public"
   },
   "license": "MIT",
   "husky": {
