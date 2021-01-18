@@ -7,6 +7,7 @@ import Header from './header';
 import Nav from './nav';
 import About from './about';
 import Skills from './skills';
+import favicon from '../images/favicon.ico';
 import useSiteMetadata from '../hooks/use-siteMetadata';
 
 export default function Layout() {
@@ -16,6 +17,7 @@ export default function Layout() {
       <Helmet>
         <html lang="en" />
         <title>{title}</title>
+        <link rel="icon" href={favicon} />
         <meta name="description" content={description} />
       </Helmet>
       <div className="navbar">
