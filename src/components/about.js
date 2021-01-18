@@ -11,7 +11,7 @@ const About = () => (
       <div>
         <i className="fas fa-server fa-3x"></i>
 
-        <p className="text-secondary">WEB</p>
+        <p className="text-secondary md">WEB</p>
       </div>
       <div>
         <i className="fas fa-upload fa-3x"></i>

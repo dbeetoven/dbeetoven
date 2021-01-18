@@ -12,12 +12,12 @@ const Nav = () => (
           </a>
         </li>
         <li className="navbar__item">
-          <a className="navbar__link" href="features.html">
+          <a className="navbar__link" href="index.html">
             Experience
           </a>
         </li>
         <li className="navbar__item">
-          <a className="navbar__link" href="docs.html">
+          <a className="navbar__link" href="index.html">
             Skills
           </a>
         </li>

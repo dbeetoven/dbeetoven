@@ -30,17 +30,6 @@ export default function Layout() {
       <div className="skills">
         <Skills />
       </div>
-      {/* <div id="page-menu" className="page-menu"><h2>Menu</h2></div>
-      <div id="page-main" className="page-main">{children}</div>
-      <div id="page-social" className="page-social"><p>Links</p></div>
-      <div id="page-footer" className="page-footer"><p><Footer/></p></div> */}
-      {/* <Helmet>
-        <html lang='en' />
-        <title>{title}</title>
-        <meta name='description' content={description} />
-      </Helmet>;  */}
-      {/* <Social />
-      {/* <Footer /> */}
     </main>
   );
 }
