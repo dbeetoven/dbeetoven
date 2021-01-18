@@ -1,5 +1,4 @@
-
-[![Header](https://github.com/dbeetoven/dbeetoven/blob/master/banner.png "Header")](https://dbeetoven.github.io/dbeetoven/)
+[![Header](https://github.com/dbeetoven/dbeetoven/blob/master/banner.png 'Header')](https://dbeetoven.github.io/dbeetoven/)
 
 ### Hi there and welcome to my GitHub page 👋
 
@@ -20,7 +19,7 @@ My name is Beetoven Desir and I am a Software developer,living in Argentina and 
    <img alt="Java" src="https://img.shields.io/badge/Java-5382a1?logo=java&logoColor=white&style=for-the-badge" />
 </p>
 
--  As a Side project,I’m currently working on my <a href="https://dbeetoven.github.io/dbeetoven">personal website</a>.
+- As a Side project,I’m currently working on my <a href="https://dbeetoven.github.io/dbeetoven">personal website</a>.
 - I am constantly studying and looking for new challenges or skills to improve, that can contribute something to my day-to-day work
 
 ---
@@ -56,16 +55,14 @@ My name is Beetoven Desir and I am a Software developer,living in Argentina and 
  
  ---
 
-
 #### 🔧 Tools,systems Technologies I use
+
 ![](https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=linux&logoColor=white&color=FCC624)
 ![](https://img.shields.io/badge/Catalina-informational?style=flat&logo=apple&logoColor=white&color=FCC624)
 ![](https://img.shields.io/badge/Editor-IntelliJ_IDEA-informational?style=flat&logo=intellij-idea&logoColor=white&color=A42E2B)
 ![](https://img.shields.io/badge/Visual-Studio-Code?style=flat&logo=vscode&logoColor=white&color=007ACC)
 ![](https://img.shields.io/badge/Shell-Zsh-informational?style=flat&logo=gnu-bash&logoColor=white&color=019733)
 ![](https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=2496ED)
-
-
 
 <!-- Resources -->
 <!-- Icons: https://simpleicons.org/ -->
@@ -74,4 +71,3 @@ My name is Beetoven Desir and I am a Software developer,living in Argentina and 
 <!-- HTML Emojis: https://www.fileformat.info/index.htm -->
 <!-- Shields: https://shields.io/ -->
 <!-- Awesome GitHub Profile README: https://github.com/abhisheknaiidu/awesome-github-profile-readme -->
-
