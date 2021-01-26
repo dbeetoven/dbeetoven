@@ -1,8 +1,8 @@
 {
-  "name": "dbeetoven-portfolio-legacy",
+  "name": "dbeetoven-portfolio",
   "version": "1.0.1",
   "private": true,
-  "description": "My Gatsby site",
+  "description": "Beetoven Desir Website",
   "author": "dbeetoven",
   "homepage": "https://dbeetoven.me/",
   "scripts": {
@@ -81,9 +81,5 @@
   "keywords": [
     "gatsby",
     "react"
-  ],
-  "engines": {
-    "npm": "6.14.8",
-    "node": "14.15.0"
-  }
+  ]
 }
