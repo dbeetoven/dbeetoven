@@ -2,7 +2,7 @@
   "name": "dbeetoven-portfolio",
   "version": "1.0.2",
   "private": true,
-  "description": "My Gatsby site",
+  "description": "Beetoven Desir Portfolio",
   "author": "dbeetoven",
   "homepage": "https://dbeetoven.me/",
   "scripts": {
@@ -67,12 +67,12 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.19.0",
     "gatsby-remark-code-titles": "^1.1.0",
+    "gh-pages": "^3.1.0",
     "husky": "^4.2.3",
     "lint-staged": "^10.1.2",
+    "terser-brunch": "^4.0.0",
     "ts-node": "^9.0.0",
-    "typescript": "^4.0.5",
-    "gh-pages": "^2.2.0",
-    "terser-brunch": "^4.0.0"
+    "typescript": "^4.0.5"
   },
   "repository": {
     "type": "git",
@@ -81,9 +81,5 @@
   "keywords": [
     "gatsby",
     "react"
-  ],
-  "engines": {
-    "npm": "6.14.8",
-    "node": "14.15.0"
-  }
+  ]
 }

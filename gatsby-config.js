@@ -38,6 +38,7 @@ if (ANALYTICS_ID) {
 }
 
 module.exports = {
+  pathPrefix: '/dbeetoven',
   siteMetadata: {
     title: 'Beetoven Desir',
     description: 'dbeetoven Portfolio, gatsby, scss',
