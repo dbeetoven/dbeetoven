@@ -6,7 +6,7 @@ import { Helmet } from 'react-helmet';
 import Header from './header';
 import Nav from './nav';
 import About from './about';
-import Skills from './skills';
+// import Skills from './skills';
 import favicon from '../images/favicon.ico';
 import useSiteMetadata from '../hooks/use-siteMetadata';
 
@@ -29,9 +29,9 @@ export default function Layout() {
       <div className="about-exp">
         <About />
       </div>
-      <div className="skills">
+      {/* <div className="skills">
         <Skills />
-      </div>
+      </div> */}
     </main>
   );
 }

@@ -3,7 +3,7 @@ import React from 'react';
 
 const Nav = () => (
   <div className="navbar__container navbar__flex">
-    <h1 className="navbar__logo">Dbeetoven</h1>
+    <h1 className="navbar__logo">Beetoven Desir</h1>
     <nav>
       <ul className="navbar__list">
         <li className="navbar__item">
