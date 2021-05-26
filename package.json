@@ -4,7 +4,7 @@
   "private": true,
   "description": "Beetoven Desir Portfolio",
   "author": "dbeetoven",
-  "homepage": "https://dbeetoven.me/",
+  "homepage": "https://dbeetoven.com/",
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
