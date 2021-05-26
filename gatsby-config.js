@@ -40,9 +40,12 @@ if (ANALYTICS_ID) {
 module.exports = {
   pathPrefix: '/dbeetoven',
   siteMetadata: {
-    title: 'Beetoven Desir',
-    description: 'dbeetoven Portfolio, gatsby, scss',
-    siteUrl: 'https://dbeetoven.me/',
+    title: 'Beetoven D.',
+    description: 'Beetoven Desir Portfolio',
+    siteUrl: 'https://dbeetoven.com',
+    url: 'https://dbeetoven.com',
+    twitterUsername: '@dbeetoven',
+    image: '/banner.png',
   },
   plugins,
 };

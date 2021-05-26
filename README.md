@@ -1,12 +1,29 @@
 [![Header](https://github.com/dbeetoven/dbeetoven/blob/master/banner.png 'Header')](https://dbeetoven.github.io/dbeetoven/)
 
-### Hi there and welcome to my GitHub page 👋
-
-My name is Beetoven Desir and I am a Software developer,living in Argentina and currently working at Bayer.
+<h2> Hey there!  I'm Beetoven D. 👋</h2>
 
 ---
 
-### What do I do?
+<h3> 👨🏻‍💻 About Me </h3>
+
+- 🤔 &nbsp; Based in Argentina.
+- 🎓 &nbsp; Studying at UTN / UADE
+- 💼 &nbsp; Working as a Software Engineer at Bayer.
+- 🌱 &nbsp; Learning more about Devops, Front-end and Back-end technologies.
+- 📫 &nbsp; How to reach me: dbeetoven@gmail.com
+
+---
+
+<br/>
+<h3>🛠 Tech Stack</h3>
+
+- 💻 &nbsp; Java | Node js
+- 🌐 &nbsp; Angular | JavaScript | TypeScript | ReactJS | Bootstrap | Material | HTML | CSS
+- 🛢 &nbsp; Mongo | Postgresql | MySQL
+
+---
+
+<br/>
 
 <p>
   <img alt="Angular" src="https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=white&style=for-the-badge" />
@@ -14,13 +31,11 @@ My name is Beetoven Desir and I am a Software developer,living in Argentina and 
   <img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white&style=for-the-badge" />
   <img alt="Css" src="https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white&style=for-the-badge" />
   <img alt="Sass" src="https://img.shields.io/badge/Sass-CC6699?logo=sass&logoColor=white&style=for-the-badge" />
-  <img alt="AWS" src="https://img.shields.io/badge/AWS-FF9900?logo=amazon&logoColor=white&style=for-the-badge" />
-    <img alt="Node" src="https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white&style=for-the-badge" />
-   <img alt="Java" src="https://img.shields.io/badge/Java-5382a1?logo=java&logoColor=white&style=for-the-badge" />
 </p>
 
-- As a Side project,I’m currently working on my <a href="https://dbeetoven.github.io/dbeetoven">personal website</a>.
-- I am constantly studying and looking for new challenges or skills to improve, that can contribute something to my day-to-day work
+<p>
+    <img alt="Java" src="https://img.shields.io/badge/Java-5382a1?logo=java&logoColor=white&style=for-the-badge" /> <img alt="Node" src="https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white&style=for-the-badge" />
+     <img alt="AWS" src="https://img.shields.io/badge/AWS-FF9900?logo=amazon&logoColor=white&style=for-the-badge" /></p>
 
 ---
 
@@ -52,10 +67,14 @@ My name is Beetoven Desir and I am a Software developer,living in Argentina and 
 <a href="https://github.com/dbeetoven">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dbeetoven&layout=compact&title_color=FF66C4&text_color=C9C6B7&icon_color=C9C6B7" />
 </a>
- 
- ---
+<a><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=dbeetoven&" alt="dbeetoven" />
+</a>
 
-#### 🔧 Tools,systems Technologies I use
+---
+
+<br/>
+
+<h3>🔧 Tools,systems Technologies I use</h3>
 
 ![](https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=linux&logoColor=white&color=FCC624)
 ![](https://img.shields.io/badge/Catalina-informational?style=flat&logo=apple&logoColor=white&color=FCC624)
