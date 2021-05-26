@@ -31,21 +31,11 @@
   <img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white&style=for-the-badge" />
   <img alt="Css" src="https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white&style=for-the-badge" />
   <img alt="Sass" src="https://img.shields.io/badge/Sass-CC6699?logo=sass&logoColor=white&style=for-the-badge" />
-<<<<<<< HEAD
 </p>
 
 <p>
     <img alt="Java" src="https://img.shields.io/badge/Java-5382a1?logo=java&logoColor=white&style=for-the-badge" /> <img alt="Node" src="https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white&style=for-the-badge" />
      <img alt="AWS" src="https://img.shields.io/badge/AWS-FF9900?logo=amazon&logoColor=white&style=for-the-badge" /></p>
-=======
-  <img alt="AWS" src="https://img.shields.io/badge/AWS-FF9900?logo=amazon&logoColor=white&style=for-the-badge" />
-    <img alt="Node" src="https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white&style=for-the-badge" />
-   <img alt="Java" src="https://img.shields.io/badge/Java-5382a1?logo=java&logoColor=white&style=for-the-badge" />
-</p>
-
-- As a Side project,I’m currently working on my <a href="https://dbeetoven.github.io/dbeetoven">personal website</a>.
-- I am constantly studying and looking for new challenges or skills to improve, that can contribute something to my day-to-day work
->>>>>>> f6330e694dd47eb73995414083e555c5e07f735d
 
 ---
 
