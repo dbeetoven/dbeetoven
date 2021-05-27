@@ -85,9 +85,7 @@ video {
     font-size: 100%;
     vertical-align: baseline;
 }
-body {
-    line-height: 1;
-}
+
 ol,
 ul {
     list-style: none;
@@ -103,25 +101,34 @@ q:after {
     content: "";
     content: none;
 }
-table {
-    border-spacing: 0;
-    border-collapse: collapse;
-}
+
 img {
     max-width: 100%;
 }
 html {
     box-sizing: border-box;
-    font-family: sans-serif;
-
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 *,
 *:before,
 *:after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
+:focus {
+  outline: 2px dashed $green;
+  outline-offset: 3px;
+}
+::selection {
+  background-color: --lightest-navy;
+  color: $lightest-slate;
+}
+
 a {
     background-color: transparent;
 }
@@ -138,10 +145,7 @@ em,
 dfn {
     font-style: italic;
 }
-h1 {
-    margin: 0.67em 0;
-    font-size: 2em;
-}
+
 small {
     font-size: 80%;
 }
@@ -255,13 +259,10 @@ html {
     overflow-x: hidden;
     overflow-y: scroll;
     font-size: 62.5%;
-
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
     overflow-x: hidden;
-    font-size: 1.5rem;
-    line-height: 1.6em;
     font-weight: 400;
     font-style: normal;
     letter-spacing: 0;
@@ -278,15 +279,15 @@ body {
 }
 
 hr {
-    position: relative;
-    display: block;
-    width: 100%;
-    margin: 2.5em 0 3.5em;
-    padding: 0;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid $color-border;
+  background-color: $lightest-navy;
+  height: 1px;
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  border-image: initial;
+  margin: 1rem;
 }
+
 
 audio,
 canvas,
@@ -297,39 +298,10 @@ video {
     vertical-align: middle;
 }
 
-p,
-blockquote {
-    margin: 0 0 1.5em 0;
-}
-
-blockquote {
-    margin: 1.5em 0;
-    padding: 0 1.6em 0 1.6em;
-    border-left: $color-bg 0.5em solid;
-}
-
-blockquote p {
-    margin: 0.8em 0;
-    font-size: 1.2em;
-    font-weight: 300;
-}
-
-blockquote small {
-    display: inline-block;
-    margin: 0.8em 0 0.8em 1.5em;
-    font-size: 0.9em;
-    opacity: 0.8;
-}
-/* Quotation marks */
-blockquote small:before {
-    content: "\2014 \00A0";
-}
-
-blockquote cite {
-    font-weight: bold;
-}
-blockquote cite a {
-    font-weight: normal;
+button {
+  cursor: pointer;
+  border: 0;
+  border-radius: 0;
 }
 
 a {
@@ -340,63 +312,57 @@ a {
 
 a:hover {
     text-decoration: underline;
-    transition: 0.2s ease;
+    transition: 0.3s ease;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin-top: 0;
-    line-height: 1.4;
-    font-weight: 700;
-    text-rendering: optimizeLegibility;
+a {
+  display: inline-block;
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  color: inherit;
+  position: relative;
+  transition: $transition;
+
+  &:hover,
+  &:focus {
+    color: $green;
+  }
+
+  &[target='_blank'] {
+    cursor: ne-resize;
+  }
 }
 
-h1 {
-    margin: 0 0 0.5em 0;
-    font-size: 5.7rem;
-    font-weight: 800;
-}
-@media (max-width: 500px) {
-    h1 {
-        font-size: 2.7rem;
+
+
+input, textarea {
+  border-radius: 0;
+  outline: 0;
+
+  &:focus {
+    outline: 0;
+  }
+  &:focus,
+  &:active {
+    &::placeholder {
+      opacity: 0.5;
     }
+  }
 }
 
-h2 {
-    margin: 1.5em 0 0.5em 0;
-    font-size: 4rem;
-}
-@media (max-width: 500px) {
-    h2 {
-        font-size: 2rem;
-    }
-}
+p {
+  margin: 0 0 15px 0;
 
-h3 {
-    margin: 1.5em 0 1em 0;
-    font-size: 3.2rem;
-}
-@media (max-width: 500px) {
-    h3 {
-        font-size: 1.8rem;
-    }
-}
+  &:last-child,
+  &:last-of-type {
+    margin: 0;
+  }
 
-h4 {
-    margin: 1.5em 0 1em 0;
-    font-size: 2.6rem;
-}
-
-h5 {
-    margin: 1.5em 0 1em 0;
-    font-size: 2.4rem;
-}
-
-h6 {
-    margin: 1.5em 0 1em 0;
-    font-size: 2.2rem;
+  & > code {
+    background-color: $light-navy;
+    color: $white;
+    font-size: $fz-sm;
+    border-radius: $border-radius;
+    padding: 0.3em 0.5em;
+  }
 }

@@ -27,11 +27,16 @@ const Sumary = () => (
         <div className="sumary">
           <h2 className="heading">
             <strong>Hi, I'am Beetoven Desir</strong>
-            <span className="sub-heading">Software Developer</span>
+            <span className="subtitle">Software Developer</span>
           </h2>
           <div className="description">
-            High level experience in web development and large system architecture, able to
-            effectively self-manage and producing quality work.
+            <p className="description-text">
+              High level experience in web development and large system architecture, able to
+              effectively self-manage and producing quality work.
+            </p>
+          </div>
+          <div className="btn-contact">
+            <button className="btn btn-primary">Get in Touch</button>
           </div>
         </div>
       </div>
