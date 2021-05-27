@@ -153,10 +153,10 @@
   display: block;
   padding: 10px;
   color: $color-body-font;
-  font-size: 2.1rem;
+  font-family: $font-title;
+  font-size: 40px;
   line-height: 1em;
   font-weight: 700;
-  text-transform: uppercase;
   letter-spacing: 1px;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -312,8 +312,8 @@
   & .heading {
     & strong {
       display: block;
-      font-size: 75%;
-      opacity: 0.75;
+      font-weight: 700;
+      font-size: 45px;
     }
     & .sub-heading {
       font-size: 55%;
@@ -323,11 +323,16 @@
   }
   & .description {
     // text-align: center;
-    font-size: 70%;
-    text-align: justify;
-    width: 70%;
-    letter-spacing: normal;
+    width: 100%;
+
+    & .description-text{
+    padding-top: 4rem;
+    font-family: $font-text;
+    }
   }
+  & .btn-contact{
+    padding-top: 5rem;
+   }
 }
 .sumary-perfil {
   margin: 10%;
@@ -361,31 +366,62 @@
 }
 /**   SUMARY   */
 /**=============================================*/
-
-/*** FOOTER */
-.follow-me {
-  text-align: center;
-  & .follow-me--links {
-    display: -webkit-flex;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    & .social-link {
-      margin: 10px;
-      height: 30%;
-      font-size: 20px;
-      & .link {
-        color: $green;
-      }
-    }
-  }
-}
 .copyright{
-  font-size: 20px;
-  color: $green !important;
+  font-size: 14px;
+  color: #6BB8FF !important;
   text-decoration: none;
   &:hover{
     text-decoration: underline;
     text-decoration-color: $state;
   }
 }
+/*** FOOTER */
+
+.contacts-links {
+  right: 0;
+  position: fixed;
+  top: 50%;
+  transform: translate(0px, -50%);
+}
+
+img[alt=""],
+  img:not([alt]) {
+    filter: blur(5px);
+  }
+
+  ul {
+    &.fancy-list {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      font-size: $fz-lg;
+      li {
+        position: relative;
+        padding-left: 30px;
+        margin-bottom: 10px;
+        &:before {
+          content: '▹';
+          position: absolute;
+          left: 0;
+          color: $green;
+        }
+      }
+    }
+  }
+
+
+  .subtitle {
+    color: $green;
+    margin: 0 0 20px 0;
+    font-size: $fz-lg;
+    font-family: $font-mono;
+    font-weight: 400;
+    line-height: 1.5;
+    opacity: 0.80;
+    @media (max-width: 1080px) {
+      font-size: $fz-md;
+    }
+    @media (max-width: 768px) {
+      font-size: $fz-md;
+    }
+  }

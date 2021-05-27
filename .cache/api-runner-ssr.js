@@ -1,15 +1,23 @@
 var plugins = [{
-      plugin: require('/Users/dbeetoven/workspace/portfolio/node_modules/gatsby-plugin-image/gatsby-ssr'),
+      name: 'gatsby-plugin-image',
+      plugin: require('/Users/dbeetoven/workspace/portfolio/dbeetoven/node_modules/gatsby-plugin-image/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/dbeetoven/workspace/portfolio/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      name: 'gatsby-plugin-react-helmet',
+      plugin: require('/Users/dbeetoven/workspace/portfolio/dbeetoven/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/dbeetoven/workspace/portfolio/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
-      options: {"plugins":[],"output":"/sitemap.xml","createLinkInHead":true},
+      name: 'gatsby-plugin-sitemap',
+      plugin: require('/Users/dbeetoven/workspace/portfolio/dbeetoven/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
+      options: {"plugins":[],"output":"/sitemap","createLinkInHead":true,"entryLimit":45000,"query":"{ site { siteMetadata { siteUrl } } allSitePage { nodes { path } } }","excludes":[]},
     },{
-      plugin: require('/Users/dbeetoven/workspace/portfolio/node_modules/gatsby-plugin-fontawesome-css/gatsby-ssr'),
+      name: 'gatsby-plugin-fontawesome-css',
+      plugin: require('/Users/dbeetoven/workspace/portfolio/dbeetoven/node_modules/gatsby-plugin-fontawesome-css/gatsby-ssr'),
       options: {"plugins":[]},
+    },{
+      name: 'gatsby-plugin-manifest',
+      plugin: require('/Users/dbeetoven/workspace/portfolio/dbeetoven/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      options: {"plugins":[],"name":"Beetoven.D","short_name":"Beetoven.D","start_url":"/","background_color":"#020c1b","theme_color":"#0a192f","display":"minimal-ui","icon":"src/images/logo.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"dd1f0c20f75913f44146dc7e84b5dfcd"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
@@ -37,11 +45,21 @@ module.exports = (api, args, defaultReturn, argTransform) => {
     if (!plugin.plugin[api]) {
       return undefined
     }
-    const result = plugin.plugin[api](args, plugin.options)
-    if (result && argTransform) {
-      args = argTransform({ args, result })
+    try {
+      const result = plugin.plugin[api](args, plugin.options)
+      if (result && argTransform) {
+        args = argTransform({ args, result })
+      }
+      return result
+    } catch (e) {
+      if (plugin.name !== `default-site-plugin`) {
+        // default-site-plugin is user code and will print proper stack trace,
+        // so no point in annotating error message pointing out which plugin is root of the problem
+        e.message += ` (from plugin: ${plugin.name})`
+      }
+
+      throw e
     }
-    return result
   })
 
   // Filter out undefined results.

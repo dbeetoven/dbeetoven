@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
 import { Link } from 'gatsby';
+import { socialMedia } from '../config';
 import { FiLinkedin } from '@react-icons/all-files/fi/FiLinkedin';
 
 const Navigation = ({ title, setToggleNav, toggleNav }) => (
@@ -16,7 +17,7 @@ const Navigation = ({ title, setToggleNav, toggleNav }) => (
             <div className="hamburger-box">
               <div className="hamburger-inner" />
             </div>{' '}
-            <div className="hamburger-text-menu-text hidden">Menu</div>
+            <div className="hamburger-text-menu-text hidden"></div>
           </div>
         </Link>
         <nav id="swup" className="site-head-left">
@@ -26,11 +27,11 @@ const Navigation = ({ title, setToggleNav, toggleNav }) => (
                 Home
               </Link>
             </li>
-            <li className="nav-about" role="menuitem">
+            {/* <li className="nav-about" role="menuitem">
               <Link to="/about" className="text-title">
                 About
               </Link>
-            </li>
+            </li> */}
           </ul>
         </nav>
         <div className="site-head-center">
@@ -39,14 +40,14 @@ const Navigation = ({ title, setToggleNav, toggleNav }) => (
           </Link>
         </div>
         <div className="site-head-right">
-          <Link to="https://www.linkedin.com/in/dbeetoven/" target="_blank" className="text-title">
+          <a href="https://www.linkedin.com/in/dbeetoven/" aria-label="Linkedin" target="_blank" rel="noopener noreferrer" className="text-title">
             <FiLinkedin accentHeight="20" />
-          </Link>
-          <div className="social-links">
+          </a>
+          {/* <div className="social-links">
             <Link to="/" className="text-title">
               Twitter
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </header>
