@@ -63,14 +63,13 @@
 
 ### Github stats
 
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=dbeetoven&count_private=true&title_color=FF66C4&icon_color=9446A6&text_color=C9C6B7&custom_title=Beetoven+Desir's+GitHub+Stats&show_icons=true" />
+<img align="center" src="https://github-readme-stats.vercel.app/api?username=dbeetoven&count_private=true&title_color=FF66C4&icon_color=9446A6&text_color=C9C6B7&custom_title=Beetoven+Desir's+GitHub+Stats&show_icons=true&theme=algolia" />
 <a href="https://github.com/dbeetoven">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dbeetoven&layout=compact&title_color=FF66C4&text_color=C9C6B7&icon_color=C9C6B7" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dbeetoven&layout=compact&title_color=FF66C4&text_color=C9C6B7&icon_color=C9C6B7&theme=algolia" />
 </a>
-<a><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=dbeetoven&" alt="dbeetoven" />
+<a><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=dbeetoven&theme=algolia" alt="dbeetoven" />
 </a>
 
----
 
 <br/>
 
