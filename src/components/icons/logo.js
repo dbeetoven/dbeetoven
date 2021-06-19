@@ -19,16 +19,15 @@ const Logo = () => (
 
 export default Logo;
 
-const SiteHeadLogo = styled(Link)`
-  flex-shrink: 0;
-  display: block;
+const SiteHeadLogo = styled.div`
+  /* flex-shrink: 0;
+  display: block; */
   /* padding: 10px; */
   /* font-size: 40px;
   line-height: 1em;
   font-weight: 700;
   letter-spacing: 1px; */
-  overflow: hidden;
-  text-overflow: ellipsis;
+
 
   & img{
   display: block;
