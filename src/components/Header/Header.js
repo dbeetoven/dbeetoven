@@ -22,10 +22,8 @@ import {
 const Header = () => (
   <Container>
     <Div1>
-      <Link to="/">
-        <a style={{ display: "flex", alignItems: "center", color: "white" }}>
-          <Logo /> <span></span>
-        </a>
+      <Link  to="/" style={{ display: "flex", alignItems: "center", color: "white" }}>
+          <Logo/>
       </Link>
     </Div1>
     <Div2>

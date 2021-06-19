@@ -17,10 +17,13 @@ const Hero = (props) => (
         </SectionTitle>
         <SectionText>
           with experience in Software development,currently working at{" "}
-      <a href="https://bayer.com/">Bayer</a>, Based in Argentina.
+      <a href="https://bayer.com/"  target="_blank"
+        aria-label="Bayer" >Bayer</a>, Based in Argentina.
       Experience in large system architecture and multidisciplinary teams, and in implementing cutting-edge engineering solutions.
         </SectionText>
-        <a href="https://dev.to/dbeetoven" className="email-link">
+        <a  href="https://linkedin.com/in/dbeetoven/"
+        target="_blank"
+        aria-label="Linkedin" className="email-link">
           Get In Touch
         </a>
       </LeftSection>
