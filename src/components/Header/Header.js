@@ -6,7 +6,7 @@ import {
   AiFillLinkedin,
   AiFillTwitterCircle
 } from "react-icons/ai";
-import IconLogo from "../Icons/logo";
+import Logo from "../icons/logo";
 import {
   Container,
   Div1,
@@ -24,7 +24,7 @@ const Header = () => (
     <Div1>
       <Link to="/">
         <a style={{ display: "flex", alignItems: "center", color: "white" }}>
-          <IconLogo /> <span></span>
+          <Logo /> <span></span>
         </a>
       </Link>
     </Div1>

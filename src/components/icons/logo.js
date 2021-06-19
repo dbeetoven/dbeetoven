@@ -3,7 +3,7 @@ import { StaticImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
 import styled, { css } from "styled-components";
 
-const IconLogo = () => (
+const Logo = () => (
   <SiteHeadLogo>
     <StaticImage
       id="logo"
@@ -17,7 +17,7 @@ const IconLogo = () => (
   </SiteHeadLogo>
 );
 
-export default IconLogo;
+export default Logo;
 
 const SiteHeadLogo = styled(Link)`
   flex-shrink: 0;
