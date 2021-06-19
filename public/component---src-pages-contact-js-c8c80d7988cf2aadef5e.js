@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{"Cuy+":function(e,t,n){"use strict";n.r(t);var a=n("q1tI"),u=n.n(a);t.default=function(){return u.a.createElement("main",null,u.a.createElement("h1",null,"About the Author"),u.a.createElement("p",null,"Welcome to my Gatsby site."))}}}]);
-//# sourceMappingURL=component---src-pages-contact-js-c8c80d7988cf2aadef5e.js.map

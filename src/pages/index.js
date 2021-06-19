@@ -1,11 +1,19 @@
-import React from 'react';
-import Layout from '../components/layout';
-import Sumary from '../components/sumary';
+import * as React from "react";
+import { Hero, Technologies, Timeline,BackgroundAnimation } from "../components";
+import { Section } from "../styles/GlobalComponents";
 
-export default function Home() {
+const IndexPage = ({ location }) => {
   return (
-    <Layout>
-      <Sumary />
-    </Layout>
+    <>
+      <Section grid>
+        <Hero />
+        <BackgroundAnimation/>
+      </Section>
+      <hr/>
+      <Timeline />
+      <Technologies />
+    </>
   );
-}
+};
+
+export default IndexPage;

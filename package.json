@@ -1,26 +1,21 @@
 {
-  "name": "dbeetoven_v1",
-  "version": "1.0.2",
+  "name": "dbeetoven",
+  "version": "1.0.3",
   "private": true,
-  "description": "Personal website V1",
-  "author": "Beetoven D. <dbeetoven@gmail.com>",
-  "homepage": "https://dbeetoven.com/",
+  "description": "Personal Portfolio",
+  "author": "Beetoven Desir <dbeetoven@gmail.com>",
+  "keywords": [
+    "gatsby"
+  ],
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
     "build": "gatsby build",
+    "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build && gh-pages -d public",
     "prepare": "husky install",
     "lint-staged": "lint-staged"
-  },
-  "license": "MIT",
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   },
   "lint-staged": {
     "*.{js,css,json,md}": [
@@ -31,65 +26,42 @@
     ]
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@react-icons/all-files": "^4.1.0",
-    "caniuse-lite": "^1.0.30001230",
+    "babel-plugin-styled-components": "^1.12.0",
     "gatsby": "^3.4.1",
-    "gatsby-image": "^3.6.0",
-    "gatsby-plugin-fontawesome-css": "^1.1.0",
-    "gatsby-plugin-google-analytics": "^3.4.0",
-    "gatsby-plugin-image": "^1.6.0",
-    "gatsby-plugin-manifest": "^3.4.0",
-    "gatsby-plugin-netlify": "^3.4.0",
-    "gatsby-plugin-offline": "^4.4.0",
-    "gatsby-plugin-purgecss": "^6.0.2",
-    "gatsby-plugin-react-helmet": "^4.4.0",
-    "gatsby-plugin-robots-txt": "^1.5.6",
-    "gatsby-plugin-sass": "^4.6.0",
-    "gatsby-plugin-sharp": "^3.6.0",
-    "gatsby-plugin-sitemap": "^4.0.0",
-    "gatsby-plugin-typescript": "^3.6.0",
-    "gatsby-remark-external-links": "0.0.4",
-    "gatsby-remark-images": "^5.1.0",
-    "gatsby-remark-prismjs": "^5.1.0",
-    "gatsby-source-filesystem": "^3.4.0",
-    "gatsby-transformer-remark": "^4.1.0",
-    "gatsby-transformer-sharp": "^3.6.0",
-    "node-sass": "6.0.0",
+    "gatsby-plugin-google-analytics": "^3.6.0",
+    "gatsby-plugin-google-fonts": "^1.0.1",
+    "gatsby-plugin-image": "^1.7.0",
+    "gatsby-plugin-manifest": "^3.6.0",
+    "gatsby-plugin-mdx": "^2.6.0",
+    "gatsby-plugin-react-helmet": "^4.6.0",
+    "gatsby-plugin-sharp": "^3.7.0",
+    "gatsby-plugin-sitemap": "^4.2.0",
+    "gatsby-plugin-styled-components": "^4.6.0",
+    "gatsby-source-filesystem": "^3.7.0",
+    "gatsby-transformer-sharp": "^3.7.0",
     "prop-types": "^15.7.2",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
-    "react-typography": "^0.16.20",
-    "typography": "^0.16.21",
-    "typography-theme-fairy-gates": "^0.16.19"
+    "react-icons": "^4.2.0",
+    "styled-components": "^5.3.0",
+    "styled-reset": "^4.3.4"
   },
   "devDependencies": {
-    "@types/node": "^15.6.1",
-    "@types/react-dom": "^17.0.5",
-    "@upstatement/eslint-config": "1.0.1",
-    "@upstatement/prettier-config": "^1.0.0",
-    "babel-eslint": "^10.1.0",
-    "dotenv": "^10.0.0",
-    "eslint": "^7.27.0",
+    "@babel/core": "^7.14.0",
+    "@babel/eslint-parser": "^7.13.14",
+    "@babel/preset-react": "^7.13.13",
+    "babel-preset-gatsby": "^1.4.0",
+    "eslint": "^7.25.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.23.2",
     "gatsby-remark-code-titles": "^1.1.0",
-    "gh-pages": "^3.2.0",
     "husky": "^6.0.0",
-    "lint-staged": "^11.0.0",
-    "prettier": "^2.2.1",
-    "terser-brunch": "^4.0.0",
-    "ts-node": "^10.0.0",
-    "typescript": "^4.3.2"
+    "lint-staged": "^10.1.2",
+    "prettier": "^2.2.1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dbeetoven/dbeetoven.git"
-  },
-  "keywords": [
-    "gatsby",
-    "react"
-  ]
+  "browserslist": "> 0.25%",
+  "license": "MIT"
 }
