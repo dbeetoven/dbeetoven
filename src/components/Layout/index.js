@@ -1,6 +1,7 @@
-import * as React from "react";
-import Head from "../components/Head";
-import Header from "../components/Header/Header";
+import React from "react";
+import PropTypes from "prop-types";
+import Head from "../Head";
+import Navbar from "../Navbar";
 import { Container } from "./LayoutStyles";
 
 export default function Layout({ children }) {
@@ -17,12 +18,13 @@ export default function Layout({ children }) {
   };
 
   return (
-    <>
+    <main>
       <Head />
-      <Container>
-        <Header />
-        <main>{children}</main>
-      </Container>
-    </>
+      <Navbar />
+      <Container>{children}</Container>
+    </main>
   );
 }
+Layout.propTypes = {
+  children: PropTypes.element.isRequired,
+};

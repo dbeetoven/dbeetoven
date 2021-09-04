@@ -1,40 +1,5 @@
-import { FaDev } from "@react-icons/all-files/fa/FaDev";
-import { Link } from "gatsby";
-import React from "react";
-import {
-  AiFillGithub,
-  AiFillLinkedin,
-  AiFillTwitterCircle
-} from "react-icons/ai";
-import Logo from "../icons/logo";
-import {
-  Container,
-  Div1,
-  Div2,
-  Div3,
-  NavLink,
-  SocialIcons
-} from "./HeaderStyles";
-
-
-
-
-const Header = () => (
-  <Container>
-    <Div1>
-      <Link  to="/" style={{ display: "flex", alignItems: "center", color: "white" }}>
-          <Logo/>
-      </Link>
-    </Div1>
-    <Div2>
-      <li>
-        <NavLink to="#about">About</NavLink>
-      </li>
-      <li>
-        <NavLink to="#tech">Technologies</NavLink>
-      </li>
-    </Div2>
-    <Div3>
+{
+  /* <Div3>
       <SocialIcons
         href="https://github.com/dbeetoven"
         target="_blank"
@@ -67,8 +32,30 @@ const Header = () => (
       >
         <FaDev accentHeight="20" size="3rem" />
       </SocialIcons>
-    </Div3>
-  </Container>
-);
+    </Div3> */
+}
 
-export default Header;
+// Social Icons
+
+export const SocialIcons = styled.a`
+  transition: 0.3s ease;
+  color: white;
+  border-radius: 50px;
+  padding: 8px;
+  &:hover {
+    background-color: #212d45;
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+`;
+
+export const Div3 = styled.div`
+  grid-area: 1 / 5 / 2 / 6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    align-items: center;
+    grid-area: 1 / 4 / 2 / 6;
+  }
+`;

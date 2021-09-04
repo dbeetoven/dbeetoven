@@ -1,4 +1,4 @@
-[![Header](https://github.com/dbeetoven/dbeetoven/blob/master/banner.png 'Header')](https://dbeetoven.github.io/dbeetoven/)
+[![Header](https://github.com/dbeetoven/dbeetoven/blob/master/banner.png "Header")](https://dbeetoven.github.io/dbeetoven/)
 
 <h2> Hey there!  I'm Beetoven D. 👋</h2>
 
@@ -69,7 +69,6 @@
 </a>
 <a><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=dbeetoven&theme=algolia" alt="dbeetoven" />
 </a>
-
 
 <br/>
 

@@ -1,48 +1,44 @@
 module.exports = {
-  email:'dbeetoven@gmail.com',
+  email: "dbeetoven@gmail.com",
   colors: {
-    green: '#64ffda',
-    navy: '#0a192f',
-    darkNavy: '#020c1b',
+    green: "#64ffda",
+    navy: "#0a192f",
+    darkNavy: "#020c1b",
   },
   navLinks: [
     {
-      name: 'About',
-      url: '/#about',
+      name: "About",
+      url: "/#about",
     },
     {
-      name: 'Experience',
-      url: '/#jobs',
+      name: "Experience",
+      url: "/#jobs",
     },
     {
-      name: 'Work',
-      url: '/#projects',
+      name: "Work",
+      url: "/#projects",
     },
     {
-      name: 'Contact',
-      url: '/#contact',
+      name: "Contact",
+      url: "/#contact",
     },
   ],
   socialMedia: [
     {
-      name: 'GitHub',
-      url: 'https://github.com/bchiang7',
+      name: "GitHub",
+      url: "https://github.com/dbeetoven",
     },
     {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
+      name: "Instagram",
+      url: "https://www.instagram.com/dbeetoven",
     },
     {
-      name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
+      name: "Twitter",
+      url: "https://twitter.com/dbeetoven",
     },
     {
-      name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
-    },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
+      name: "Linkedin",
+      url: "https://www.linkedin.com/in/dbeetoven",
     },
   ],
-}
+};

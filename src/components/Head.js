@@ -38,7 +38,6 @@ export default function Head({ title, description, image }) {
     url: `${siteUrl}${pathname}`,
   };
 
-
   return (
     <Helmet
       title={title}

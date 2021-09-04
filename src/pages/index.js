@@ -1,19 +1,34 @@
 import * as React from "react";
-import { Hero, Technologies, Timeline,BackgroundAnimation } from "../components";
+import {
+  Technologies,
+  Timeline,
+  BackgroundAnimation,
+  Header,
+} from "../components";
 import { Section } from "../styles/GlobalComponents";
 
 const IndexPage = ({ location }) => {
   return (
-    <>
-      <Section grid>
-        <Hero />
-        <BackgroundAnimation/>
-      </Section>
-      <hr/>
+    <div>
+      <section>
+        <Header />
+      </section>
+
+      <hr />
       <Timeline />
       <Technologies />
-    </>
+    </div>
   );
 };
 
 export default IndexPage;
+{
+  /* <Section grid> */
+}
+
+{
+  /* <BackgroundAnimation/> */
+}
+{
+  /* </Section> */
+}
