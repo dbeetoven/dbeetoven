@@ -11,8 +11,8 @@ import {
   WelcomeHeading,
   ProfileImg,
 } from './HeaderStyles';
-import Image from '../Images';
 import Profile from '../icons/Profile';
+
 
 const Header = () => (
   <HeaderContainer>
@@ -39,9 +39,9 @@ const Header = () => (
     </HeaderItem01>
 
     <HeaderItem02>
-      <ProfileImg>
+      <Profile>
         <Profile />
-      </ProfileImg>
+      </Profile>
     </HeaderItem02>
   </HeaderContainer>
 );
