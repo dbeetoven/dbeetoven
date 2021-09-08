@@ -15,7 +15,6 @@ export const HeaderContainer = styled.div`
 export const HeaderItem01 = styled.div`
   display: flex;
   flex-direction: column;
-  -webkit-backdrop-filter: blur(0px);
 `;
 export const HeaderItem02 = styled.div`
   display: flex;

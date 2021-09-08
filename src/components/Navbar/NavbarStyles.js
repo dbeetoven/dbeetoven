@@ -33,7 +33,7 @@ export const NavLink = styled(Link)`
     color: var(--white);
     opacity: 1;
     cursor: pointer;
-    border-bottom: 2px solid var(--yellow);
+    /* border-bottom: 2px solid var(--yellow); */
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.5rem;
