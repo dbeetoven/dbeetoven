@@ -1,6 +1,6 @@
-import { createGlobalStyle } from "styled-components";
-import reset from "styled-reset";
-import variables from "./variables";
+import { createGlobalStyle } from 'styled-components';
+import reset from 'styled-reset';
+import variables from './variables';
 
 const GlobalStyle = createGlobalStyle`
   ${variables};
@@ -126,7 +126,22 @@ const GlobalStyle = createGlobalStyle`
     margin: 1rem;
   }
 
-
+  .profileImg{
+    border-radius: 111px;
+background: linear-gradient(145deg, #0b1b32, #09172a);
+box-shadow:  7px 7px 14px #091528,
+             -7px -7px 14px #0c1d36;
+  }
+  a {
+      ${({ theme }) => theme.mixins.inlineLink};
+      line-height: 1.5;
+    }
+  }
+  .email-link {
+    ${({ theme }) => theme.mixins.bigButton};
+    margin-top: 50px;
+   text-align: center;
+  }
 `;
 
 export default GlobalStyle;

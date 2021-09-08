@@ -1,5 +1,17 @@
-import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
-export function Profile() {
- return <StaticImage src="../../images/profile.png"  quality={95}
- formats={["AUTO", "WEBP", "AVIF"]} alt="Beetoven Desir Illustration" />
+import React from "react";
+
+const Profile = () => (
+  // <div>
+    <StaticImage
+      id="logo"
+      className="profileImg"
+      src="../../images/profile.png"
+      quality={100}
+      formats={["AUTO", "WEBP", "AVIF"]}
+      alt="Beetoven Desir Illustration"
+    />
+
+);
+
+export default Profile;

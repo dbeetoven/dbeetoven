@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   HeaderContainer,
   HeaderContent,
@@ -9,9 +9,10 @@ import {
   SubTitle,
   Title,
   WelcomeHeading,
-} from "./HeaderStyles";
-import Image from "../Images";
-import { Profile } from "../icons/profile";
+  ProfileImg,
+} from './HeaderStyles';
+import Image from '../Images';
+import Profile from '../icons/Profile';
 
 const Header = () => (
   <HeaderContainer>
@@ -23,21 +24,21 @@ const Header = () => (
       </HeaderTitle>
       <HeaderContent>
         <HeaderDescription>
-          Experience in large system architecture and multidisciplinary teams,
-          and in implementing cutting-edge engineering solutions.
+        I make awesome websites and build cutting-edge engineering solutions
         </HeaderDescription>
+
+        <a  href="https://linkedin.com/in/dbeetoven/"
+        target="_blank"
+        aria-label="Linkedin" className="email-link">
+          Get In Touch
+        </a>
       </HeaderContent>
     </HeaderItem01>
 
     <HeaderItem02>
-      <Profile/>
-      {/* <Image
-        src="profile.png"
-        alt="Beetoven Desir Illustration"
-        style={{
-          border: "10px solid green",
-        }}
-      /> */}
+      <ProfileImg>
+        <Profile />
+      </ProfileImg>
     </HeaderItem02>
   </HeaderContainer>
 );
