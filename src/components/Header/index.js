@@ -24,12 +24,15 @@ const Header = () => (
       </HeaderTitle>
       <HeaderContent>
         <HeaderDescription>
-        I make awesome websites and build cutting-edge engineering solutions
+          I make awesome websites and build cutting-edge engineering solutions
         </HeaderDescription>
 
-        <a  href="https://linkedin.com/in/dbeetoven/"
-        target="_blank"
-        aria-label="Linkedin" className="email-link">
+        <a
+          href="https://linkedin.com/in/dbeetoven/"
+          target="_blank"
+          aria-label="Linkedin"
+          className="email-link"
+        >
           Get In Touch
         </a>
       </HeaderContent>

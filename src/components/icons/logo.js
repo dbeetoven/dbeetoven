@@ -1,6 +1,6 @@
-import { StaticImage } from "gatsby-plugin-image";
-import React from "react";
-import styled from "styled-components";
+import { StaticImage } from 'gatsby-plugin-image';
+import React from 'react';
+import styled from 'styled-components';
 
 const Logo = () => (
   <SiteHeadLogo>
@@ -10,7 +10,7 @@ const Logo = () => (
       src="../../images/logoIcon.png"
       width={50}
       quality={95}
-      formats={["AUTO", "WEBP", "AVIF"]}
+      formats={['AUTO', 'WEBP', 'AVIF']}
       alt="Beetoven"
     />
   </SiteHeadLogo>

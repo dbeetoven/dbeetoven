@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const CarouselContainer = styled.ul`
   max-width: 1040px;
@@ -59,8 +59,7 @@ export const CarouselItem = styled.div`
     position: relative;
     height: fit-content;
 
-    ${(props) =>
-      props.active === props.index ? `opacity: 1` : `opacity: 0.5`};
+    ${(props) => (props.active === props.index ? `opacity: 1` : `opacity: 0.5`)};
   }
 `;
 
@@ -71,11 +70,7 @@ export const CarouselItemTitle = styled.h4`
   letter-spacing: 0.02em;
   display: flex;
   /* This gradient is different due to the size of the Title container, it must transition sooner to be visible on the text */
-  background: linear-gradient(
-    121.57deg,
-    #ffffff 10%,
-    rgba(255, 255, 255, 0.66) 30.15%
-  );
+  background: linear-gradient(121.57deg, #ffffff 10%, rgba(255, 255, 255, 0.66) 30.15%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 8px;
@@ -93,11 +88,7 @@ export const CarouselItemTitle = styled.h4`
 `;
 export const CarouselItemImg = styled.svg`
   margin-left: 21px;
-  -webkit-mask-image: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 1),
-    rgba(0, 0, 0, 0)
-  );
+  -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
   width: 100%;
 
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -146,8 +137,7 @@ export const CarouselButton = styled.button`
   cursor: pointer;
   margin-right: 4px;
   opacity: ${(props) => (props.active === props.index ? `1` : `.33`)};
-  transform: ${(props) =>
-    props.active === props.index ? `scale(1.6)` : `scale(1)`};
+  transform: ${(props) => (props.active === props.index ? `scale(1.6)` : `scale(1)`)};
 
   &:focus {
     outline: none;

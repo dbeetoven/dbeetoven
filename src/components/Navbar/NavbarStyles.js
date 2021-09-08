@@ -1,12 +1,12 @@
-import { Link } from "gatsby";
-import styled from "styled-components";
+import { Link } from 'gatsby';
+import styled from 'styled-components';
 
 export const NavbarContainer = styled.nav`
   display: flex;
   align-items: center;
   justify-content: flex-end;
   padding: 2rem 10%;
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
   backdrop-filter: blur(0px);
 `;
 

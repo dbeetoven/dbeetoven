@@ -1,11 +1,6 @@
-import React from "react";
-import Logo from "../icons/logo";
-import {
-  NavbarContainer,
-  NavbarItems,
-  NavLink,
-  StyledLogo,
-} from "./NavbarStyles";
+import React from 'react';
+import Logo from '../icons/logo';
+import { NavbarContainer, NavbarItems, NavLink, StyledLogo } from './NavbarStyles';
 
 const Navbar = () => (
   <NavbarContainer>

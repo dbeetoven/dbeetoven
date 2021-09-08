@@ -136,7 +136,7 @@ box-shadow:  7px 7px 14px #091528,
       ${({ theme }) => theme.mixins.inlineLink};
       line-height: 1.5;
     }
-  }
+
   .email-link {
     ${({ theme }) => theme.mixins.bigButton};
     margin-top: 50px;
