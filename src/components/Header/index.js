@@ -39,9 +39,9 @@ const Header = () => (
     </HeaderItem01>
 
     <HeaderItem02>
-      <Profile>
+      <ProfileImg>
         <Profile />
-      </Profile>
+      </ProfileImg>
     </HeaderItem02>
   </HeaderContainer>
 );
