@@ -1,6 +1,6 @@
-import { createGlobalStyle } from "styled-components";
-import reset from "styled-reset";
-import variables from "./variables";
+import { createGlobalStyle } from 'styled-components';
+import reset from 'styled-reset';
+import variables from './variables';
 
 const GlobalStyle = createGlobalStyle`
   ${variables};
@@ -41,21 +41,10 @@ const GlobalStyle = createGlobalStyle`
     border-radius: 10px;
   }
   }
-  /* body::-webkit-scrollbar {
-    width: 12px;
-  }
-  body::-webkit-scrollbar-track {
-    background: var(--navy);
-  } */
-  /* body::-webkit-scrollbar-thumb {
-    background-color: var(--dark-slate);
-    border: 3px solid var(--navy);
-    border-radius: 10px;
-  } */
+
   h1,h2,h3,h4,h5,h6,button {
-    font-family: ${props => props.theme.fonts.sans};
-    /* margin: 0 0 10px 0; */
-    font-weight: ${({theme})=> theme.fontWeight.semibold};
+    font-family: ${(props) => props.theme.fonts.sans};
+    font-weight: ${({ theme }) => theme.fontWeight.semibold};
     color: var(--lightest-slate);
     line-height: 1.1;
   }
@@ -66,13 +55,13 @@ const GlobalStyle = createGlobalStyle`
     list-style: none;
   }
 
-  ::selection {
-    background-color: ${({theme})=> theme.colors.lightestNavy};
-    color: ${({ theme }) => theme.colors.lightSecondary};
-  }
+  /* ::selection {
+    background-color: ${({ theme }) => theme.colors.lightestNavy};
+    color: ${({ theme }) => theme.colors.white};
+  } */
 
   :focus {
-    outline: 2px dashed ${({theme})=> theme.colors.green};
+    outline: 2px dashed ${({ theme }) => theme.colors.green};
     outline-offset: 3px;
   }
 
@@ -82,16 +71,6 @@ const GlobalStyle = createGlobalStyle`
     filter: blur(5px);
   }
 
-  /* svg {
-    width: 100%;
-    height: 100%;
-    fill: currentColor;
-    vertical-align: middle;
-
-    &.feather {
-      fill: none;
-    }
-  } */
 
   a {
     display: inline-block;
@@ -147,25 +126,17 @@ const GlobalStyle = createGlobalStyle`
     margin: 1rem;
   }
 
-  .subtitle {
-    color: var(--green);
-    margin: 0 0 20px 0;
-    font-size: var(--fz-md);
-    font-family: var(--font-mono);
-    font-weight: 400;
-    line-height: 1.5;
-    @media (max-width: 1080px) {
-      font-size: var(--fz-sm);
-    }
-    @media (max-width: 768px) {
-      font-size: var(--fz-xs);
-    }
-
-    a {
+  .profileImg{
+    border-radius: 111px;
+background: linear-gradient(145deg, #0b1b32, #09172a);
+box-shadow:  7px 7px 14px #091528,
+             -7px -7px 14px #0c1d36;
+  }
+  a {
       ${({ theme }) => theme.mixins.inlineLink};
       line-height: 1.5;
     }
-  }
+
   .email-link {
     ${({ theme }) => theme.mixins.bigButton};
     margin-top: 50px;

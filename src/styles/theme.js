@@ -10,7 +10,7 @@ const theme = {
     red: 'var(--red)',
     yellow: 'var(--yellow)',
     white: 'var(--white)',
-    navyShadow: 'var(--navy-shadow)'
+    navyShadow: 'var(--navy-shadow)',
   },
   bp: {
     mobileS: `max-width: 330px`,

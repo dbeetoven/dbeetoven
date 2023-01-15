@@ -1,12 +1,12 @@
 import mixins from '../styles/mixins';
 
- const theme={
+const theme = {
   fonts: {
     sans: '"Share Tech Mono", monospace',
     serif: 'Arvo, sans',
     monospace: '"Ubuntu Mono", monospace',
-    title: "Space Grotesk, sans-serif",
-    main: "Space Grotesk, sans-serif"
+    title: 'Space Grotesk, sans-serif',
+    main: 'Space Grotesk, sans-serif',
   },
   colors: {
     primary: 'var(--slate)',
@@ -18,14 +18,14 @@ import mixins from '../styles/mixins';
     yellow: 'var(--yellow)',
     white: 'var(--white)',
     navyShadow: 'var(--navy-shadow)',
-    lightestNavy:'var(--lightest-navy)'
+    lightestNavy: 'var(--lightest-navy)',
   },
   // Breakpoints for responsive design
   breakpoints: {
     sm: 'screen and (max-width: 640px)',
     md: 'screen and (max-width: 768px)',
     lg: 'screen and (max-width: 1024px)',
-    xl: 'screen and (max-width: 1280px)'
+    xl: 'screen and (max-width: 1280px)',
   },
   fontSize: {
     xs: '0.75rem',
@@ -51,5 +51,5 @@ import mixins from '../styles/mixins';
     black: '900',
   },
   mixins,
-}
+};
 export default theme;

@@ -1,8 +1,13 @@
-import { css } from 'styled-components'
+import { css } from 'styled-components';
 
 const variables = css`
   :root {
+    --primary: #0a192f;
+    --secondary: #020c1b;
+    --terciary: #112240;
     --dark-navy: #020c1b;
+    --lightest-primary: #233554;
+    --borderShadow: rgba(2, 12, 27, 0.7);
     --navy: #0a192f;
     --light-navy: #112240;
     --lightest-navy: #233554;
@@ -12,11 +17,12 @@ const variables = css`
     --light-slate: #a8b2d1;
     --lightest-slate: #ccd6f6;
     --white: #e6f1ff;
-    --white-1: #f9f9f9;
+    --white-secondary: #f9f9f9;
     --green: #64ffda;
     --red: #f90a23;
     --yellow: #e99c2e;
     --green-tint: rgba(100, 255, 218, 0.1);
+    background-color: #0a192f;
 
     --link-color-light: #0074c1;
     --color-bg: #1a212c;
@@ -42,6 +48,6 @@ const variables = css`
     --fz-xxl: 22px;
     --fz-heading: 32px;
   }
-`
+`;
 
-export default variables
+export default variables;

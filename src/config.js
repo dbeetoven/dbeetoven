@@ -1,5 +1,5 @@
 module.exports = {
-  email:'dbeetoven@gmail.com',
+  email: 'dbeetoven@gmail.com',
   colors: {
     green: '#64ffda',
     navy: '#0a192f',
@@ -26,23 +26,19 @@ module.exports = {
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
+      url: 'https://github.com/dbeetoven',
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
+      url: 'https://www.instagram.com/dbeetoven',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
+      url: 'https://twitter.com/dbeetoven',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
-    },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
+      url: 'https://www.linkedin.com/in/dbeetoven',
     },
   ],
-}
+};
